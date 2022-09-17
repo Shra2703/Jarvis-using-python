@@ -92,6 +92,10 @@ def run_alexa():
     elif "open gmail" in command:
         print("opening gmail")
         webbrowser.open("gmail.com")
+
+    elif "Thank you" in command:
+        print("Mention not")
+        talk("Mention not")
     
     # elif "stop" in command:
     #     return command
